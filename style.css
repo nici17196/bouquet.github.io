@@ -1,0 +1,268 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: Kurale serif;
+	color: #696969;
+	line-height: 1.5em; 
+	background-color: #FAFAD2;
+}
+a {
+	text-decoration: none;
+}
+.mein-nav {
+	height: 30px;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #FFE4B5;
+	margin: 0px;
+	padding: 20px;
+	padding-bottom: 15px;
+	
+	vertical-align: middle;
+}
+.mein-nav a {
+	color: #CD853F;
+	padding-left: 50px;
+}
+.mein-nav a:hover {
+	color: #F4A460;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.promo {
+	height: 200px;
+	width: auto;
+	font-size: 65px;
+	font-weight: bold;
+	text-align: left;
+	padding: 190px;
+	padding-left: 60px;
+	margin-bottom: 0px;	
+	background: url("img/flowers-fon.jpg") no-repeat 0 -100px;
+	background-size: cover;
+	color: #8B4726;
+}
+.promo p {
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 1;
+}
+.promo .special {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+.promo .special-insta {
+	background: url("img/insta.png") no-repeat 0 0;
+	margin: -10px -10px -10px 0;
+}
+.promo .special-fb {
+	background: url("img/facebook.png") no-repeat 0 0;
+	margin: -10px;
+}
+.promo .special-vk {
+	background: url("img/vkontakte.png") no-repeat 0 0;
+	margin: -10px;
+}
+
+.left-photo {
+	float: left;
+	height: 620px;
+	width: 400px;
+}
+.main-text {
+	float: left;
+	height: 620px;
+	width: 509px;
+	font-size: 18px;
+	margin: 10px 20px;
+	margin-bottom: -10px;
+}
+.right-photo {
+	float: left;
+	height: 620px;
+	width: 400px;
+}
+ h2 {
+	height: 30px;
+	background: #FFE4B5;
+	font-size: 32px;
+	font-weight: bold;
+	background-color: #FFE4B5;
+	color: #CD853F;
+	padding: 20px 0 10px 0;
+	margin: 0;
+	text-align: center;
+}
+.main-text p {
+	line-height: auto;
+}
+
+.bouquets {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+.bouquets img {
+	margin: 10px 17px;
+}
+.bouquets table {
+	margin: 20px 20px;
+}
+.bouquets h3 {
+	margin-top: 10px;
+	margin-left: 17px;
+	line-height: 0.5;
+	font-size: 18px;
+}
+.bouquets p {
+	margin-left: 17px;
+	margin-bottom: 100px;
+	line-height: 0.5;
+	font-size: 16px;
+}
+.bouquets hr {
+	margin-left: 17px;
+	width: 120px;
+}
+
+.compositions img {
+	margin: 10px 40px;
+}
+.compositions table{
+	margin: 20px 20px;
+}
+.compositions h3 {
+	margin-top: 10px;
+	margin-left: 40px;
+	line-height: 0.5;
+	font-size: 18px;
+}
+.compositions p {
+	margin-left: 40px;
+	margin-bottom: 100px;
+	line-height: 0.5;
+	font-size: 16px;
+}
+.compositions hr {
+	margin-left: 40px;
+	width: 165px;
+}
+.compositions h2,
+.order h2 {
+	height: 30px;
+	background: #FFE4B5;
+	font-size: 32px;
+	font-weight: bold;
+	background-color: #FFE4B5;
+	color: #CD853F;
+	padding: 20px 0 10px 0;
+	margin-top: -40px;
+	text-align: center;
+}
+.order .special {
+	display: inline-block;
+	height: 40px;
+	width: 50px;
+}
+.order .special-insta {
+	background: url("img/insta-mini.png") no-repeat 0 0;
+	margin: 6px -6px 0 14px;
+}
+.order .special-fb {
+	background: url("img/facebook-mini.png") no-repeat 0 0;
+	margin: 6px -6px 0 0;
+}
+.order .special-vk {
+	background: url("img/vkontakte-mini.png") no-repeat 0 0;
+	margin: 6px -6px 0 0;
+}
+.order span {
+	font-style: italic;
+	color: #352C5C;
+}
+.order_of{
+	background-color: #FFE4B5; 
+	padding-left: 500px;
+	margin-top: -40px;
+	padding-top: 60px;
+}
+form input[type="text"],
+input[type="tel"] {
+	margin-left: 10px;
+	margin-bottom: 8px;
+	height: 35px;
+	width: 200px;
+	border: none;
+	border-bottom: 1px solid #DCDCDC;
+	background-color: #FAFAD2;
+}
+form input[name="username"] {
+	position: relative;
+	left: 70px;
+}
+form input[name="e-mail"] {
+	position: relative;
+	left: 130px;
+}
+form input[name="usernumber"] {
+	position: relative;
+	left: 54px;
+}
+form textarea {
+	margin-bottom: 8px;
+	width: 196px;
+	border: none;
+	border-bottom: 1px solid #DCDCDC;
+	background-color: #FAFAD2;
+}
+form textarea[name="oder"] {
+	position: relative;
+	left: 109px;
+}
+form textarea[name="adress"] {
+	position: relative;
+	left: 72px;
+}
+form input[type="datetime-local"] {
+	position: relative;
+	left: 65px;
+	height: 30px;
+	width: 200px;
+	border: none;
+	border-bottom: 1px solid #DCDCDC;
+	background-color: #FAFAD2;
+}
+form p {
+	margin-bottom: 0;
+}
+form input[type="checkbox"] {
+	margin-right: 20px;
+	width: 20px;
+	height: 20px;
+	background-color: #FAFAD2;
+	border: 1px solid #DCDCDC;
+}
+button {
+	font-size: 18px;
+	width: auto;
+	height: 35px;
+	background-color: #FAFAD2;
+	border: 2px solid #DCDCDC;
+	color: #696969;
+	margin-left: 140px;
+	margin-bottom: 20px;
+}
+.footer-bottom {
+	margin-top: -20px;
+	width: auto;
+	height: 80px;
+	background-color: #8B7765;
+	color: #FAFAD2;
+	text-align: center;
+}
+.footer-bottom p {
+	padding: 25px;	
+}
+
